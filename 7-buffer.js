@@ -32,6 +32,7 @@ const poolify = (factory, min, norm, max) => {
 			length: pool.items.length,
 			allocated: pool.allocated,
 		});
+		
 		return res;
 	};
 
